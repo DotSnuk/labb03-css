@@ -42,4 +42,15 @@ main {
   aside {
     display: none;
   }
+  table {
+    width: 300px;
+  }
+  td {
+    width: 100px;
+    height: 100px;
+  }
+  #newGame {
+    background-color: lightskyblue;
+    color: white;
+  }
 }
