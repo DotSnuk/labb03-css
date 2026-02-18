@@ -85,8 +85,11 @@ td {
 }
 
 @media (max-width: 1180px) and (min-width: 512px) {
+    main {
+        width: 65%;
+    }
     aside {
-      width: 25%;
+        width: 25%;
     }
 }
 
