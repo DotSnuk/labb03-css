@@ -15,6 +15,7 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
@@ -35,5 +36,25 @@ main {
 }
 
 #game-area {
-    
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    font-size: 50px;
+    border: 1px solid darkgray;
+    text-align: center;
+}
+
+#div-in-form {
+ border: 1px solid darkslategray;
+ border-radius: 0.5rem;
+ padding-top: 1rem;
+ padding-bottom: 2rem;
+ box-shadow: rgba(0 0 0 0.5);
 }
