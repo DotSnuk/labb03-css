@@ -74,6 +74,16 @@ td {
     background-color: lightskyblue;
     color: white;
   }
+
+  .jumbotron {
+    width: 400px;
+  }
+
+  #div-in-form {
+    width: fit-content;
+    height: fit-content;
+  }
+
 }
 
 @media (max-width: 1180px) and (min-width: 512px) {
