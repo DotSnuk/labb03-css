@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+ @import url();
+
+body {
+    font-family: Roboto;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.jumbotron {
+    background-color: #DEDEDE;
+    padding: 1.5rem;
+    border-radius: 0.3rem;
+    margin: 0 0 1rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-none {
+    display: none !important;
+}
+
+#game-area {
+    
+}
