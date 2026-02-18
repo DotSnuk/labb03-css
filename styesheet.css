@@ -11,6 +11,8 @@ html {
 body {
     font-family: Roboto;
     font-size: 1rem;
+    display: flex;
+    flex-direction: row;
 }
 
 main {
@@ -41,8 +43,13 @@ main {
     align-items: center;
 }
 
+img {
+  width: 100%;
+}
+
 table {
     border-collapse: collapse;
+    flex-shrink: 0;
 }
 
 td {
@@ -78,4 +85,24 @@ td {
 
 @media (max-width: 1180px) and (min-width: 512px) {
     
+}
+
+@media (min-width: 1181px) {
+  main {
+    width: 75%;
+  }
+  aside {
+    width: 300px;
+    max-width: 300px;
+  }
+  .col {
+
+  }
+  table {
+    width: 450px;
+  }
+  td {
+    width: 150px;
+    height: 150px;
+  }
 }
