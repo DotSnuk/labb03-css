@@ -75,3 +75,7 @@ td {
     color: white;
   }
 }
+
+@media (max-width: 1180px) and (min-width: 512px) {
+    
+}
