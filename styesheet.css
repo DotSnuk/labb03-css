@@ -35,5 +35,11 @@ main {
 }
 
 #game-area {
-    
+    border: 1px solid black;
+}
+
+@media (max-width: 511px) {
+  aside {
+    display: none;
+  }
 }
