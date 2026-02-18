@@ -58,3 +58,9 @@ td {
  padding-bottom: 2rem;
  box-shadow: rgba(0 0 0 0.5);
 }
+
+@media (max-width: 511px) {
+  aside {
+    display: none;
+  }
+}
