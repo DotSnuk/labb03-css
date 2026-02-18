@@ -91,6 +91,16 @@ td {
     aside {
         width: 25%;
     }
+    aside>a {
+        width: 100%;
+    }
+    table {
+        width: 300px;
+    }
+    table>tr>td {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media (min-width: 1181px) {
