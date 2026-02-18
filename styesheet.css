@@ -77,13 +77,54 @@ td {
 
   .jumbotron {
     width: 400px;
+    margin: 0 auto;
   }
 
   #div-in-form {
     width: fit-content;
     height: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
   }
 
+  .col {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  input[type="text"] {
+    width: 280px;
+    height: 25x;
+  }
+
+  input[type="color"] {
+    width: 280px;
+    height: 18px;
+  }
+
+  #div-with-a {
+    width: 120px;
+    height: 30px;
+    background-color: lightblue;
+    border-radius: 0.3rem;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+
+  a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #game-area {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 1180px) and (min-width: 512px) {
