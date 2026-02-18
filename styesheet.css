@@ -41,6 +41,7 @@ main {
     display: flex;
     align-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 img {
@@ -48,8 +49,8 @@ img {
 }
 
 table {
-    border-collapse: collapse;
-    flex-shrink: 0;
+  border-collapse: collapse;
+  flex-shrink: 0;
 }
 
 td {
@@ -84,7 +85,9 @@ td {
 }
 
 @media (max-width: 1180px) and (min-width: 512px) {
-    
+    aside {
+      width: 25%;
+    }
 }
 
 @media (min-width: 1181px) {
