@@ -11,6 +11,8 @@ html {
 body {
     font-family: Roboto;
     font-size: 1rem;
+    display: flex;
+    flex-direction: row;
 }
 
 main {
@@ -39,10 +41,16 @@ main {
     display: flex;
     align-content: center;
     align-items: center;
+    justify-content: center;
+}
+
+img {
+  width: 100%;
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
+  flex-shrink: 0;
 }
 
 td {
@@ -128,5 +136,38 @@ td {
 }
 
 @media (max-width: 1180px) and (min-width: 512px) {
-    
+    aside {
+      width: 25%;
+    }
+    aside>a {
+        width: 100%;
+    }
+    table {
+        width: 300px;
+    }
+    table>tr>td {
+        width: 100px;
+        height: 100px;
+        
+    }
+}
+
+@media (min-width: 1181px) {
+  main {
+    width: 75%;
+  }
+  aside {
+    width: 300px;
+    max-width: 300px;
+  }
+  .col {
+    width: 47.5%;
+  }
+  table {
+    width: 450px;
+  }
+  td {
+    width: 150px;
+    height: 150px;
+  }
 }
