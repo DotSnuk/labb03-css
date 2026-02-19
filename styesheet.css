@@ -101,6 +101,10 @@ a {
     text-align: center;
   }
 
+#newGame {
+    color: white;
+  }
+
 @media (max-width: 511px) {
   aside {
     display: none;
@@ -112,13 +116,13 @@ a {
     width: 100px;
     height: 100px;
   }
-
+/*
   #newGame {
-    /*background-color: lightskyblue;*/
+    background-color: lightskyblue;
     color: white;
   }
 
-  /* #div-in-form {
+ #div-in-form {
     width: fit-content;
     height: fit-content;
     margin: 0 auto;
@@ -182,10 +186,7 @@ a {
     main {
         width: 65%;
     }
-   #newGame {
-    color: white;
   }
-}
 
 @media (min-width: 1181px) {
   main {
@@ -211,4 +212,16 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+
+
+  #div-with-a:hover {
+    background-color: white;
+    border-color: lightskyblue;
+    border: 1px solid lightskyblue;
+    a {
+        color: lightskyblue;
+    }
+  }
+
 }
