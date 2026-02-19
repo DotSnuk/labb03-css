@@ -149,6 +149,9 @@ td {
         width: 100px;
         height: 100px;
     }
+    main {
+        width: 65%;
+    }
 }
 
 @media (min-width: 1181px) {
