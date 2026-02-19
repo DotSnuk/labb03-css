@@ -145,10 +145,9 @@ td {
     table {
         width: 300px;
     }
-    table>tr>td {
+    td {
         width: 100px;
         height: 100px;
-        
     }
 }
 
