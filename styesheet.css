@@ -80,6 +80,10 @@ input {
   flex-direction: column;
 }
 
+#newGame {
+  margin: 0 auto;
+}
+
 #div-with-a {
     width: 120px;
     height: 30px;
@@ -89,6 +93,7 @@ input {
     display: flex;
     flex-direction: column;
     align-self: flex-end;
+    justify-content: center;
   }
 
 a {
