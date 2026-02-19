@@ -161,6 +161,7 @@ td {
   }
   .col {
     width: 47.5%;
+    margin: 5%;
   }
   table {
     width: 450px;
@@ -168,5 +169,8 @@ td {
   td {
     width: 150px;
     height: 150px;
+  }
+  #div-in-form {
+    padding: 0px;
   }
 }
