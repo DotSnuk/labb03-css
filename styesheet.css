@@ -103,6 +103,7 @@ a {
 
 #newGame {
     color: white;
+    font-weight: bold;
   }
 
 @media (max-width: 511px) {
