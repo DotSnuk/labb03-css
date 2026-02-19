@@ -80,6 +80,22 @@ input {
   flex-direction: column;
 }
 
+#div-with-a {
+    width: 120px;
+    height: 30px;
+    background-color: lightblue;
+    border-radius: 0.3rem;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+
+a {
+    text-decoration: none;
+    text-align: center;
+  }
+
 @media (max-width: 511px) {
   aside {
     display: none;
@@ -91,8 +107,9 @@ input {
     width: 100px;
     height: 100px;
   }
+
   #newGame {
-    background-color: lightskyblue;
+    /*background-color: lightskyblue;*/
     color: white;
   }
 
@@ -121,7 +138,7 @@ input {
     width: 280px;
     height: 18px;
   } */
-
+/*
   #div-with-a {
     width: 120px;
     height: 30px;
@@ -137,7 +154,7 @@ input {
     text-decoration: none;
     text-align: center;
   }
-
+*/
   #game-area {
     margin: 0 auto;
   }
@@ -160,6 +177,9 @@ input {
     main {
         width: 65%;
     }
+   #newGame {
+    color: white;
+  }
 }
 
 @media (min-width: 1181px) {
