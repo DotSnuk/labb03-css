@@ -68,6 +68,7 @@ td {
  box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
  display: flex;
  flex-direction: column;
+ justify-content: space-between;
 }
 
 input {
@@ -199,7 +200,7 @@ a {
   }
   .col {
     width: 47.5%;
-    padding: 2.5%;
+    
   }
   table {
     width: 450px;
@@ -209,7 +210,7 @@ a {
     height: 150px;
   }
   #div-in-form {
-    padding: 0px;
+    
     flex-direction: row;
     flex-wrap: wrap;
   }
